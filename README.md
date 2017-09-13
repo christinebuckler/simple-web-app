@@ -28,4 +28,4 @@ $ screen -R webapp
 ctrl+c          (to stop running app)  
 
 View web app in browser:
-$ open -a "Google Chrome" http://ec2-107-22-157-155.compute-1.amazonaws.com:8105/  
+$ open -a "Google Chrome" http://ec2-###-##-###-###.compute-1.amazonaws.com:8105/  
