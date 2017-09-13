@@ -1,13 +1,20 @@
 # Web App Starter
 
-
-This repo contains files to run a simple [Flask](http://flask.pocoo.org/ "Flask") app that uses [Boostrap](https://getbootstrap.com/ "Bootstrap") templates and formatting.
-
-These files can be cloned to AWS instance to run a simple web Flask app using templates and formatting from Bootstrap.   
+This repo can be cloned to AWS instance to run a simple web [Flask](http://flask.pocoo.org/ "Flask") app using templates and formatting from [Boostrap](https://getbootstrap.com/ "Bootstrap").   
 
 Setup AWS EC2 Instance:  
-
-
+Launch EC2 Instance  
+Use Community AMI "DSI-Template3"
+Use free instance type "t2.micro"   
+Configure instance details  
+(Add storage)  
+Add tags "Name", "webapp"
+Configure security group: Add Rule  
+  Type: HTTP  
+  Type: Custom TCP Rule, Port Range: 8105, Source: 0.0.0.0/0, ::/0   
+Review and launch, Launch  
+Create or use existing your_keypair.pem  
+Connect to remote via local terminal: $ ssh -i ~/.ssh/your_keypair.pem username@PublicDNS(IPv4)  
 
 Remote Terminal:  
 $ git clone https://github.com/christinebuckler/simple-web-app.git   
