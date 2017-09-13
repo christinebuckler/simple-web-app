@@ -5,7 +5,7 @@ This repo can be cloned to AWS instance to run a simple web [Flask](http://flask
 Setup AWS EC2 Instance:  
 Launch EC2 Instance  
 Use Community AMI "DSI-Template3"  
-Use free instance type "t2.micro"   
+Use free instance type "t2.micro"    
 Configure instance details  
 (Add storage)  
 Add tags "Name", "webapp"  
