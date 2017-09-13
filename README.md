@@ -4,11 +4,11 @@ This repo can be cloned to AWS instance to run a simple web [Flask](http://flask
 
 Setup AWS EC2 Instance:  
 Launch EC2 Instance  
-Use Community AMI "DSI-Template3"
+Use Community AMI "DSI-Template3"  
 Use free instance type "t2.micro"   
 Configure instance details  
 (Add storage)  
-Add tags "Name", "webapp"
+Add tags "Name", "webapp"  
 Configure security group: Add Rule  
   Type: HTTP  
   Type: Custom TCP Rule, Port Range: 8105, Source: 0.0.0.0/0, ::/0   
