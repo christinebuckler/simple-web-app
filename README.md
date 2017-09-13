@@ -25,10 +25,7 @@ ctrl+a, d       (to detach, now able to close terminal or computer without te
 ssh back into instance... 
 $ screen -ls    (to  see screen sessions)  
 $ screen -R webapp
-ctrl+c          to stop running app  
+ctrl+c          (to stop running app)  
 
-
-
-view app in browser: 
-$ open -a "Google Chrome" .html  
-http://ec2-107-22-157-155.compute-1.amazonaws.com:8105/
+View web app in browser:
+$ open -a "Google Chrome" http://ec2-107-22-157-155.compute-1.amazonaws.com:8105/  
