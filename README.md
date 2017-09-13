@@ -14,7 +14,7 @@ Configure security group: Add Rule
   Type: Custom TCP Rule, Port Range: 8105, Source: 0.0.0.0/0, ::/0   
 Review and launch, Launch  
 Create or use existing your_keypair.pem  
-Connect to remote via local terminal: $ ssh -i ~/.ssh/your_keypair.pem username@PublicDNS(IPv4)  
+Connect to remote via local terminal: $ ssh -i ~/.ssh/your_keypair.pem username@ec2-###-##-##-###.compute-1.amazonaws.com  
 
 Remote Terminal:  
 $ git clone https://github.com/christinebuckler/simple-web-app.git   
