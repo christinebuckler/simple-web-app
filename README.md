@@ -17,15 +17,15 @@ Create or use existing your_keypair.pem
 Connect to remote via local terminal: $ ssh -i ~/.ssh/your_keypair.pem username@ec2-###-##-##-###.compute-1.amazonaws.com  
 
 Remote Terminal:  
-$ git clone https://github.com/christinebuckler/simple-web-app.git   
-$ cd simple-web-app
-$ screen -S webapp   
-$ python app.py    
+$ `git clone https://github.com/christinebuckler/simple-web-app.git`   
+$ `cd simple-web-app`  
+$ `screen -S webapp`  
+$ `python app.py`  
 ctrl+a, d       (to detach, now able to close terminal or computer without terminating)  
 ssh back into instance... 
-$ screen -ls    (to  see screen sessions)  
-$ screen -R webapp
+$ `screen -ls`    (to  see screen sessions)  
+$ `screen -R webapp`
 ctrl+c          (to stop running app)  
 
 View web app in browser:
-$ open -a "Google Chrome" http://ec2-###-##-###-###.compute-1.amazonaws.com:8105/  
+$ `open -a "Google Chrome" http://ec2-###-##-###-###.compute-1.amazonaws.com:8105/` 
