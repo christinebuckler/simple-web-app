@@ -13,12 +13,12 @@ Connect to remote via local terminal: $ ssh -i ~/.ssh/your_keypair.pem username@
 Remote Terminal:  
 $ `git clone https://github.com/christinebuckler/simple-web-app.git`   
 $ `cd simple-web-app`  
-$ `screen -S webapp`
+$ `screen -S webapp`  
 $ `python app.py`  
-ctrl+a, d       (to detach, now able to close terminal or computer without terminating)  
-ssh back into instance... 
+ctrl+a, d       (to detach, now able to close terminal or computer without terminating)  
+ssh back into instance...  
 $ `screen -ls`  (to  see screen sessions)  
-$ `screen -R webapp`
+$ `screen -R webapp`  
 ctrl+c          (to stop running app)  
 
 View web app in browser:
