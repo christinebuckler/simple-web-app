@@ -9,3 +9,4 @@ def index():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True, threaded=True)
     # Set host to '0.0.0.0' to have the server available externally
+    # replace '0.0.0.0' with ec2 IP
