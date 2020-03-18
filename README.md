@@ -8,9 +8,12 @@ Configure security group: Add Rule
   Type: HTTP  
   Type: Custom TCP Rule, Port Range:5000, Source:0.0.0.0/0, ::/0   
 Review and launch  
+
 Connect to remote via local terminal: $ ssh -i ~/.ssh/your_keypair.pem username@ec2-###-##-##-###.compute-1.amazonaws.com  
 
 Remote Terminal:  
+install git, python, pip and screen
+
 $ `git clone https://github.com/christinebuckler/simple-web-app.git`   
 $ `cd simple-web-app`  
 $ `screen -S webapp`  
